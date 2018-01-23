@@ -95,24 +95,60 @@
                 <i class="material-icons">Weekdays</i>
             </div>
             <div class="collapsible-body">
-                <table class="highlight responsive-table">
-                    <thead>
-                        <tr>
-                            <th>Departure From Larkspur</th>
-                            <th>Arrival in San Francisco</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>5:45 am</td>
-                            <td>6:15 am</td>
-                        </tr>
-                        <tr>
-                            <td>6:35 am</td>
-                            <td>7:05 am</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <!-- /////// Dropdown to Select Ferry Departure Location /////  -->
+                <a class='dropdown-button btn' href='#' data-activates='dropdown1'>Ferry Departure Location</a>
+                <ul id='dropdown1' class='dropdown-content'>
+                    <li>
+                        <a href="#!">Larkspur</a>
+                    </li>
+                    <li>
+                        <a href="#!">San Francisco</a>
+                    </li>
+                </ul>
+                <!-- ///////// Table for Larkspur to SF Weekdays ///////  -->
+                <div class="row">
+                    <div class="col s6">
+                        <table class="highlight responsive-table">
+                            <thead>
+                                <tr>
+                                    <th>Departure From Larkspur</th>
+                                    <th>Arrival in San Francisco</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>5:45 am</td>
+                                    <td>6:15 am</td>
+                                </tr>
+                                <tr>
+                                    <td>6:35 am</td>
+                                    <td>7:05 am</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col s6">
+                        <table class="highlight responsive-table">
+                            <thead>
+                                <tr>
+                                    <th>Departure From San Francisco</th>
+                                    <th>Arrival in Larkspur</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>5:45 am</td>
+                                    <td>6:15 am</td>
+                                </tr>
+                                <tr>
+                                    <td>6:35 am</td>
+                                    <td>7:05 am</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
             </div>
         </li>
         <li>
