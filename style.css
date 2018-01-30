@@ -16,6 +16,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  
+}
+
+* {
+    margin: 0;
+    height: 100%;
 }
 
 .inner-container {
