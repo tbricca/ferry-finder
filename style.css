@@ -2,51 +2,21 @@
     background-color: #64b5f6;
 }
 
-/* .ferry-overview {
-    display: inline-block;
-    float: none;
-    text-align: initial;
-
-} */
-
-.img-box {
-  background-image: url("ferry-sunset.jpg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  /* background-size: cover; */
-  position: relative;
-  margin: 0;
-  
+body {
+    min-height: 200vh;
 }
 
-/* * {
-    margin: 0;
-    height: 100%;
-    // this makes the whole heaeder look great but the rest of the page distorted 
-} */
-
-.inner-box {
-  text-align: center;
-  margin: 0;
-  position: relative; 
-  width: 100%; 
-  color: white;
-  /* height: auto;
-  margin-top: 200px;  
-  /// this was fucking everything up, couldnt see the whole div  */
+.logo {
+    font-weight: 300;
+    padding-left: 10px;
 }
 
-h1 {
-  font-size: 5em;
+.first-image {
+  width: 300px;
+  height: 60%;
 }
 
-h2 {
-  margin-top: -17px;
-  font-family: sans-Arial, Helvetica, sans-serif;
-  text-align: center;
-  font-weight: 400;
-}
+
 
 
 
