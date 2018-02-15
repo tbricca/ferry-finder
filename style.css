@@ -11,10 +11,10 @@ body {
     padding-left: 10px;
 }
 
-/* .parallax image {
-  width: 60%;
-  height: 30px;
-} */
+
+section-header {
+    font-weight: 300;
+}
  
 
 
