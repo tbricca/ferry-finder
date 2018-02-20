@@ -18,7 +18,7 @@ section-header {
  
 .thin-text {
     /* font-weight: 300; */
-    background: rgba(96, 125, 139, .4);
+    /* background: rgba(96, 125, 139, .4); */
     padding: 40px;
     border-radius: 10px;  
 }
@@ -34,6 +34,4 @@ section-header {
 .ferry-routes {
     min-height: 300px;
 }
-.map {
-    min-height: 600px;
-}
+
