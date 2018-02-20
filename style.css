@@ -37,3 +37,6 @@ section-header {
     min-height: 300px;
 }
 
+.card-content {
+    min-height: 120px;
+}
