@@ -1,7 +1,9 @@
 .nav-wrapper {
     background-color: #64b5f6;
 }
-
+.page-footer {
+    background-color: #64b5f6;
+}
 body {
     min-height: 200vh;
 }
