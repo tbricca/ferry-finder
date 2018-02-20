@@ -31,3 +31,9 @@ section-header {
     width: 400px;
 } */
 
+.ferry-routes {
+    min-height: 300px;
+}
+.map {
+    min-height: 600px;
+}
