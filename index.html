@@ -11,7 +11,8 @@
     <link rel="stylesheet" type="text/css" href="../style.css">
 
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-    
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css' rel='stylesheet' />
     <title>Ferry Finder</title>
 </head>
 <body>
@@ -76,7 +77,7 @@
             </div>
             <div class="col l4 m12 s12">
                 <div class="card">
-                    <a href="larkspur.html">
+                    <a href="sausalito.html">
                         <div class="card-image">
                             <img src="img/sausalitoWaterfront.jpg">
                             <div class="card-content light-blue">
@@ -88,7 +89,7 @@
             </div>
             <div class="col l4 m12 s12">
                 <div class="card">
-                    <a href="larkspur.html">
+                    <a href="tiburon.html">
                         <div class="card-image">
                             <img src="img/yachtsTiburon.jpg">
                             <div class="card-content light-blue">
@@ -127,6 +128,13 @@
             <img src="img/kidsFerry.jpg">
         </div>
     </div>
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoidGJyaWNjYSIsImEiOiJjajhobmZhcmwwdmYwMzJuYWN6bzRidXFtIn0.Teo12BCE-FDoyX_tPiEYlg';
+        var map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/streets-v10'
+        });
+    </script>
     <div class="container">
         <iframe width="800" height="900" frameborder="0" src="https://widgets.scribblemaps.com/sm/?z&l&af&mc&lat=37.886561199005016&lng=-122.47159694257812&vz=12&type=mb_pirate&ti&width=800&height=900&id=SvBE_Jxrdg"
         style="border:0; max-width: 100%;" allowfullscreen></iframe>

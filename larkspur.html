@@ -42,7 +42,7 @@
             <div class="row center">
                 <div class="col l10 offset-l1">
                     <h2 class="center-align white-text cta">Larkspur Ferry Times & Information</h2>
-                    <a href="#" class="center btn-large hoverable red accent-2">See the Amenities</a>
+                    <!-- <a href="#" class="center btn-large hoverable red accent-2">See the Amenities</a> -->
                 </div>
             </div>
         </div>
@@ -50,13 +50,29 @@
             <img src="img/mtTam.png">
         </div>
     </div>
+    <!-- <div id='map' style='width: 400px; height: 300px;'></div> -->
+    
+    <a class='dropdown-button btn' href='#' data-activates='dropdown1'>Select Ferry Departure Location</a>
+    
+    <!-- Dropdown Structure -->
+    <ul id='dropdown1' class='dropdown-content'>
+        <li>
+            <a href="#!">Larkspur</a>
+        </li>
+        <li>
+            <a href="#!">San Francisco</a>
+        </li>
+        <li class="divider"></li>
+    </ul>
+
+
         <div class="container">            
         <ul class="collapsible" data-collapsible="accordion">
             <h2>Larkspur Ferry Schedules</h2>
             <li>
-                <div class="collapsible-header">
+                <div class="collapsible-header active">
                     <i class="material-icons">Weekdays</i></div>
-                <div class="collapsible-body">
+                <div class="collapsible-body ">
                     <div class="row">
                         <div class="col s6">
                             <table class="highlight responsive-table">
