@@ -59,11 +59,32 @@
 
 
         <div class="container">            
-        <ul class="collapsible" data-collapsible="accordion">
+        <!-- <ul class="collapsible" data-collapsible="accordion"> -->
             <h2>Larkspur Ferry Schedules</h2>
             
-            <a class='dropdown-button btn' href='#' data-activates='dropdown1'>Select Ferry Departure Location</a>
-            <!-- Dropdown Structure -->
+            <div class="input-field col s12">
+                <select>
+                    <option value="" disabled selected>Choose Your Departure Location</option>
+                    <option value="1">Larkspur</option>
+                    <option value="1">San Francisco</option>
+                </select>
+                <label>Departure Location</label>
+            </div>
+            <div class="input-field col s12">
+                <select>
+                    <option value="" disabled selected>Select Day of the Week</option>
+                    <option value="1">Weekday</option>
+                    <option value="1">Weekend</option>
+                    <option value="1">Holiday</option>
+                </select>
+                <label>Departure Location</label>
+            </div>
+
+        <!-- </ul> -->
+        </div>
+            
+            <!-- <a class='dropdown-button btn' href='#' data-activates='dropdown1'>Select Ferry Departure Location</a>
+            
             <ul id='dropdown1' class='dropdown-content'>
                 <li>
                     <a href="#!">Larkspur</a>
@@ -74,7 +95,7 @@
                 <li class="divider"></li>
             </ul>
             <a class='dropdown-button btn' href='#' data-activates='dropdown2'>Select Day of the Week</a>
-            <!-- Dropdown Structure -->
+           
             <ul id='dropdown2' class='dropdown-content'>
                 <li>
                     <a href="#!">Weekday</a>
@@ -86,11 +107,11 @@
                     <a href="#!">Holiday</a>
                 </li>
                 <li class="divider"></li>
-            </ul>
+            </ul> -->
 
 
 
-            <li>
+            <!-- <li>
                 <div class="collapsible-header active">
                     <i class="material-icons">Weekdays</i></div>
                 <div class="collapsible-body ">
@@ -223,7 +244,7 @@
                 </div>
             </li>
         </ul>
-    </div>
+    </div> -->
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
